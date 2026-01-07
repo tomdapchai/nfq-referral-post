@@ -54,8 +54,8 @@ importers:
         specifier: 15.1.2
         version: 15.1.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       pnpm:
-        specifier: ^9.15.2
-        version: 9.15.2
+        specifier: ^10.27.0
+        version: 10.27.0
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -1691,6 +1691,7 @@ packages:
   next@15.1.2:
     resolution: {integrity: sha512-nLJDV7peNy+0oHlmY2JZjzMfJ8Aj0/dd3jCwSZS8ZiO5nkQfcZRqDrRN3U5rJtqVTQneIOGZzb6LCNrk7trMCQ==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
+    deprecated: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/CVE-2025-66478 for more details.
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
@@ -1820,8 +1821,8 @@ packages:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
     engines: {node: '>= 6'}
 
-  pnpm@9.15.2:
-    resolution: {integrity: sha512-k+V7ASbw33TOa/8paAOUwLpU7Ecka5zzIfASHY2bsD91CnBfJO3DwRgIU6/XwsO5QZbQo9U9PgadnieT7xHzIQ==}
+  pnpm@10.27.0:
+    resolution: {integrity: sha512-ctaZ2haxF5wUup5k3HHJpAmIy9xlwmTLDkidt96RfyDc9NZNhyNiXylpulLUt+KhFwaC2awqXcrqq3MrfhbwSg==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -4130,7 +4131,7 @@ snapshots:
 
   pirates@4.0.6: {}
 
-  pnpm@9.15.2: {}
+  pnpm@10.27.0: {}
 
   possible-typed-array-names@1.0.0: {}
 
