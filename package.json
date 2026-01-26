@@ -24,7 +24,7 @@
     "html-react-parser": "^5.2.1",
     "lucide-react": "^0.469.0",
     "next": "15.1.2",
-    "pnpm": "^9.15.2",
+    "pnpm": "^10.28.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "^2.5.5",
